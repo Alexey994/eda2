@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+  padding:0;
+
+}
+body{
+    wid
+}
+.header{
+width: 1560px;
+   background: linear-gradient(180deg,#0C4C7B -100%, #1E2F40 100%); 
+}
+.container{
+    width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-beetwen;
+}
+.food{
+    color:#FAF9F9;
+    padding:170px 0;
+}
+.food-time{
+    font-family:'Nanito', Sans-Serif;
+    color:#fbb731;
+    font-weight: bold;
+    font-size:30px;
+    line-height: 38px;
+}
+.food-title{
+    margin-bottom: 10px;
+    font-family:'Nanito Sans', Sans-Serif;
+    font-weight: 800;
+    font-size: 120px;
+    line-height: 120px;
+    text-transform: uppercase;
+    max-width:580px;
+    min-height: 272px;
+    display: block;
+}
+.food-text{
+    margin-bottom: 15px;
+    max-width: 580px;
+    min-height: 60px;
+    font-family: 'Lato', Sans-Serif;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 1.4;
+    color: #DEDEDE;
+}
+.button{
+    border-radius: 5px;
+    background: #FBB731;
+    color: #1E2F40;
+    
+    
+}
+.button-food{
+    margin-top:15px;
+    display: inline-block;
+    font-family: 'Nanito', Sans-Serif;
+    font-weight:700px;
+    font-size: 14px;
+    line-height:18px;
+    text-decoration: none;
+    padding:20px 45px ;
+    text-transform: uppercase;
+}
+.visual{
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+.bg{
+   max-width: 432px;
+   height: 100%;
+   background:linear-gradient(2.42deg,#F37335 -19.6%, #FBB731 100.79%, #FDC830 100.79%);
+}
+.burger-image{
+    position: absolute;
+    max-width: 829px;
+    right: -168px;
+}
