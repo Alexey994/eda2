@@ -1,62 +1,63 @@
 *{
   margin: 0;
   padding:0;
-
 }
 body{
-    wid
+    font-family: 'Nutio Sans', Sans-Serif ;
 }
 .header{
-width: 1560px;
-   background: linear-gradient(180deg,#0C4C7B -100%, #1E2F40 100%); 
+width: 1920px;
+   background: linear-gradient(180deg,#0C4C7B -100%, #1E2F40 100%);
+   height: 862px;
 }
 .container{
     width: 1180px;
     margin: 0 auto;
     display: flex;
     justify-content: space-beetwen;
+    height: %;
 }
 .food{
     color:#FAF9F9;
     padding:170px 0;
 }
 .food-time{
+    margin-bottom: 10px;
     font-family:'Nanito', Sans-Serif;
     color:#fbb731;
     font-weight: bold;
     font-size:30px;
     line-height: 38px;
 }
+
 .food-title{
-    margin-bottom: 10px;
-    font-family:'Nanito Sans', Sans-Serif;
-    font-weight: 800;
+    margin-top:10px;
+    margin-bottom: 40px;
+    width: 580px;
+    height:272px;
+    font-weight: 800px;
     font-size: 120px;
-    line-height: 120px;
+    line-height: 140px;
     text-transform: uppercase;
-    max-width:580px;
-    min-height: 272px;
-    display: block;
 }
+
 .food-text{
-    margin-bottom: 15px;
-    max-width: 580px;
+    max-width:524px;
     min-height: 60px;
     font-family: 'Lato', Sans-Serif;
     font-weight: 700;
     font-size: 19px;
-    line-height: 1.4;
-    color: #DEDEDE;
+    line-height:38px;
+    display: block;
+  
 }
 .button{
+    margin-top:45px;
     border-radius: 5px;
     background: #FBB731;
     color: #1E2F40;
-    
-    
 }
 .button-food{
-    margin-top:15px;
     display: inline-block;
     font-family: 'Nanito', Sans-Serif;
     font-weight:700px;
@@ -73,12 +74,35 @@ width: 1560px;
     position: relative;
 }
 .bg{
-   max-width: 432px;
-   height: 100%;
+    width: 432px;
+    height:100%;
    background:linear-gradient(2.42deg,#F37335 -19.6%, #FBB731 100.79%, #FDC830 100.79%);
 }
 .burger-image{
     position: absolute;
-    max-width: 829px;
+    width: 829px;
     right: -168px;
+}
+.cards
+.card{
+    margin:100px 286px;
+    background: red;
+}
+.skidka{
+    border-radius: 14px;
+    color: #fff;
+    background: #F37335;
+    padding: 5px 19px;
+    display: inline-block;
+}
+.procent{
+    font-weight: 900;
+    font-size: 60px;
+    display: block;
+}
+.card-text{
+    font-weight: 700px;
+    font-size: 15px ;
+    line-height: 24px;
+    color:#FAF9F9;
 }
